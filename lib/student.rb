@@ -37,6 +37,7 @@ class Student
   end
  
   def self.create()
+    attr_accessor :name, :grade
     student = Student.new(name, grade)
     student.save
     student
