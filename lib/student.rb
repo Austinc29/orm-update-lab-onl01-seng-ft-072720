@@ -40,7 +40,6 @@ class Student
     student_new = self.new(name, grade)
     student_new.save
     student_new
-     DB[:conn].execute(sql)
   end
 
   def self.new_from_db(row)
