@@ -40,7 +40,7 @@ class Student
     attr_accessor :name, :grade
     @name = name 
     @grade = grade
-    student = Student.new(name, grade)
+    student = Student.new()
     student.save
     student
   end
